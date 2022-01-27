@@ -1,4 +1,4 @@
-# depot_git
+# depot_git instructions
 
 Depôt exemple de tutos d'installation de git et de son utilisation.  
 
