@@ -28,6 +28,7 @@ apt get install git
 # git branch -M nom du fichier   
 # git remote add git@github.com  
 # git push -u origin nom du fichier  
+#bonhour al
 
 
 
