@@ -97,7 +97,7 @@ unset env
 eval "$(ssh-agent -s)"
 ```
 
-### ajouter sa clef au dictionnaire
+### Ajouter sa clef au dictionnaire
 
 ```bash
 # id_rsa == votre clef privée
