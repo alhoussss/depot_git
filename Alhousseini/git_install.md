@@ -20,7 +20,9 @@ eval "$(ssh-agent -s)"
 ##ajouter sa clé privé au dictionnaire
 
 ssh-add ~/.ssh/id_rsa 
+
 ##ou
+
 #ss-add "nom du fichier ou est stocké la clé ssh"
 
 ##tester si ca marche
