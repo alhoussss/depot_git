@@ -30,6 +30,8 @@ ssh-add ~/.ssh/id_rsa
 # utilisation de git  
 ## initialisation d'un nouveau repository
 
+```bash
+
  git config --global user.mail ""
  git config --global user.name ""
  git init  
@@ -38,9 +40,11 @@ ssh-add ~/.ssh/id_rsa
  git branch -M nom du fichier   
  git remote add git@github.com  chemin du fichier
  git push -u origin main  
+```
 
  ##commandes à savoir
 
+```bash
  git pull: permet de tirer des modifications à partir du serveur main
  git diff: permet de voir les modifications apportées sur un fichier
  git log: permet de voir le moment ou les lignes ont été modifiés
@@ -49,8 +53,10 @@ ssh-add ~/.ssh/id_rsa
  git stash clear: supprime les éléments de la liste
  .gitignore: les fichiers qui seront ignorés par la commande git add .
  **/*.extensions à supprimer
+ ```
 
 ## manipulation des branches
+```bash
 
 git branch:permet de créer une branche
 git checkout -b "nom de la branche":permet de créer une nouvelle branche
@@ -60,8 +66,9 @@ git merge "nom branche": La commande git merge est utilisée pour fusionner une 
 git branch -r :affiche les branches presentent sur la branche principale
 git merge:permet de faire fusionner deux branches
 git push origin -d "nom branche":supprime une branche en remote
+```
 
-###nb:
+
 
 
 
