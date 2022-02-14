@@ -67,6 +67,7 @@ git checkout -b "nom de la branche":permet de créer une nouvelle branche
 git branch –d "nom branche":supprime une branche
 git checkout "nom branche":permet de passer d'une branche à une autre
 git merge "nom branche": La commande git merge est utilisée pour fusionner une branche dans la branche active
+git squash: permet de reunir tous les commits précedents en un
 git branch -r :affiche les branches presentent sur la branche principale
 git merge:permet de faire fusionner deux branches
 git push origin -d "nom branche":supprime une branche en remote
