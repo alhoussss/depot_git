@@ -15,6 +15,7 @@ apt get install git
 ### Generer une clé ssh
 
 ssh-keygen -t rsa -b 4096 -C "votre adresse mail"
+
 eval "$(ssh-agent -s)"
 
 ##ajouter sa clé privé au dictionnaire
