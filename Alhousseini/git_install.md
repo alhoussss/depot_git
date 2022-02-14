@@ -8,28 +8,29 @@
 # installations
 
 ## GIT
-
+```bash
 apt get install git
-
+```
 ## SSH
 ### Generer une clé ssh
+```bash
 
 ssh-keygen -t rsa -b 4096 -C "votre adresse mail"
 
 eval "$(ssh-agent -s)"
-
-##ajouter sa clé privé au dictionnaire
-
+```
+###ajouter sa clé privé au dictionnaire
+```bash
 ssh-add ~/.ssh/id_rsa 
-
+```
 ##ou
-
+```bash
 #ss-add "nom du fichier ou est stocké la clé ssh"
-
+```
 ##tester si ca marche
-
+```bash
 #ssh -T git@github.com
-
+```
 # utilisation de git  
 ## initialisation d'un nouveau repository
 
